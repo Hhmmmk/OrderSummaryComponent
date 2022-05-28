@@ -29,6 +29,7 @@ body {
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
+  box-shadow: 5px 20px 15px lightgrey;
 }
 
 .hero {
@@ -160,4 +161,20 @@ section {
 
 .cancel:active {
   color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  position: absolute;
+  font-size: 11px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 98vh;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

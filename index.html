@@ -8,6 +8,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -17,23 +21,25 @@
   </style>
 </head>
 <body>
-  <main class="container">
-    <img src="./images/illustration-hero.svg" alt="" class="hero">
-    <h1 class="cardTitle">Order Summary</h1>
-    <p class="cardContent">You can now listen to millions of songs, audiobooks, and podcasts on any 
+  <main>
+    <div class="container">
+      <img src="./images/illustration-hero.svg" alt="" class="hero">
+      <h1 class="cardTitle">Order Summary</h1>
+      <p class="cardContent">You can now listen to millions of songs, audiobooks, and podcasts on any 
       device anywhere you like!</p>
-    <section class="plan">
-      <img src="./images/icon-music.svg" alt="music_icon" class="icon">
+      <section class="plan">
+        <img src="./images/icon-music.svg" alt="music_icon" class="icon">
+        <div class="info">
+          <div class="duration">Annual Plan</div>
+          <div class="pricing">$59.99/year</div>
+        </div>
+        <a href="#" title="Change Plan">Change</a>
+      </section>
       <div>
-        <div class="duration">Annual Plan</div>
-        <div class="pricing">$59.99/year</div>
+        <button class="payment">Proceed to Payment</button>
       </div>
-      <a href="#" title="Change Plan">Change</a>
-    </section>
-    <div>
-      <button class="payment">Proceed to Payment</button>
+      <a href="#" title="Cancel Order">Cancel Order</a>
     </div>
-    <a href="#" title="Cancel Order">Cancel Order</a>
   </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
